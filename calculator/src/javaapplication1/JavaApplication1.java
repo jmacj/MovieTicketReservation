@@ -5,6 +5,8 @@
  */
 package javaapplication1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author fdbague
@@ -18,6 +20,12 @@ public class JavaApplication1 {
         // TODO code application logic here
         System.out.println("Hello World");
         System.out.println("Foo-Bar");
+        
+        Scanner read = new Scanner(System.in);
+        System.out.println("Enter any word/s");
+        String val = read.nextLine();
+        System.out.println("You entered: "+val);
+        
     }
     
 }
