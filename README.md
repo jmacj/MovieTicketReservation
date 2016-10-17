@@ -1,5 +1,3 @@
 # MovieTicketReservation
-Basic Movie Ticket Reservation using C#
 
-
-Kindly Disregard Folder Gui-Calculator_fromNB/Gui-Calculator and calculator.
+Basic Movie Ticket Reservation using C# in Microsoft Visual Studio 2012
