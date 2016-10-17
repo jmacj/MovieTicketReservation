@@ -36,9 +36,9 @@ namespace TicketReservation
             checkBox12.Appearance = System.Windows.Forms.Appearance.Button;
 
             //default value for textbox
-            tboxChange.Text = Convert.ToString(0.00);
-            tboxTotalAmount.Text = Convert.ToString(0.00);
-            tboxPayAmount.Text = Convert.ToString(0.00);
+            tboxChange.Text = Convert.ToString("0.00");
+            tboxTotalAmount.Text = Convert.ToString("0.00");
+            tboxPayAmount.Text = Convert.ToString("0.00");
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -307,8 +307,6 @@ namespace TicketReservation
                 MessageBox.Show("Please Enter Exact to Greater than the Total Amount");
             }
             tboxChange.Text = total.ToString("0.00");
-
-            MessageBox.Show("adasd" + total);
         }
     }
 }
