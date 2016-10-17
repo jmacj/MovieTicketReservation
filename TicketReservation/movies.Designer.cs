@@ -36,7 +36,6 @@
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnReserve = new System.Windows.Forms.Button();
             this.lblSeatCount = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.lblMoviePrice = new System.Windows.Forms.Label();
@@ -47,6 +46,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.lblReservedSeat = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnReserve = new System.Windows.Forms.Button();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
@@ -54,15 +56,21 @@
             this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.lblReservedSeat = new System.Windows.Forms.Label();
+            this.tboxPayAmount = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.tboxChange = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.tboxTotalAmount = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCancel
             // 
             this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnCancel.Location = new System.Drawing.Point(10, 267);
+            this.btnCancel.Location = new System.Drawing.Point(289, 285);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(85, 37);
             this.btnCancel.TabIndex = 0;
@@ -133,9 +141,6 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.lblReservedSeat);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.btnReserve);
             this.groupBox1.Controls.Add(this.lblSeatCount);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.lblMoviePrice);
@@ -146,23 +151,12 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.lblTitle);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.btnCancel);
             this.groupBox1.Location = new System.Drawing.Point(292, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 310);
+            this.groupBox1.Size = new System.Drawing.Size(200, 140);
             this.groupBox1.TabIndex = 11;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Details";
-            // 
-            // btnReserve
-            // 
-            this.btnReserve.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnReserve.Location = new System.Drawing.Point(109, 267);
-            this.btnReserve.Name = "btnReserve";
-            this.btnReserve.Size = new System.Drawing.Size(85, 37);
-            this.btnReserve.TabIndex = 18;
-            this.btnReserve.Text = "Submit";
-            this.btnReserve.UseVisualStyleBackColor = true;
             // 
             // lblSeatCount
             // 
@@ -254,6 +248,34 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Title";
             // 
+            // lblReservedSeat
+            // 
+            this.lblReservedSeat.AutoSize = true;
+            this.lblReservedSeat.Location = new System.Drawing.Point(12, 9);
+            this.lblReservedSeat.Name = "lblReservedSeat";
+            this.lblReservedSeat.Size = new System.Drawing.Size(20, 13);
+            this.lblReservedSeat.TabIndex = 19;
+            this.lblReservedSeat.Text = "A0";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(38, 12);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(88, 13);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Reserved Seat/s";
+            // 
+            // btnReserve
+            // 
+            this.btnReserve.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btnReserve.Location = new System.Drawing.Point(407, 285);
+            this.btnReserve.Name = "btnReserve";
+            this.btnReserve.Size = new System.Drawing.Size(85, 37);
+            this.btnReserve.TabIndex = 18;
+            this.btnReserve.Text = "Submit";
+            this.btnReserve.UseVisualStyleBackColor = true;
+            // 
             // checkBox6
             // 
             this.checkBox6.Location = new System.Drawing.Point(242, 83);
@@ -324,34 +346,87 @@
             this.checkBox12.UseVisualStyleBackColor = true;
             this.checkBox12.CheckedChanged += new System.EventHandler(this.checkBox12_CheckedChanged);
             // 
-            // label4
+            // tboxPayAmount
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 143);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 13);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "Reserved Seat/s";
+            this.tboxPayAmount.Location = new System.Drawing.Point(94, 19);
+            this.tboxPayAmount.Name = "tboxPayAmount";
+            this.tboxPayAmount.Size = new System.Drawing.Size(100, 20);
+            this.tboxPayAmount.TabIndex = 20;
+            this.tboxPayAmount.Leave += new System.EventHandler(this.tboxPayAmountLeave);
             // 
-            // lblReservedSeat
+            // label5
             // 
-            this.lblReservedSeat.AutoSize = true;
-            this.lblReservedSeat.Location = new System.Drawing.Point(6, 170);
-            this.lblReservedSeat.Name = "lblReservedSeat";
-            this.lblReservedSeat.Size = new System.Drawing.Size(20, 13);
-            this.lblReservedSeat.TabIndex = 19;
-            this.lblReservedSeat.Text = "A0";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 49);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 13);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "Total Amount";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 22);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(64, 13);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "Pay Amount";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.tboxChange);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.tboxTotalAmount);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.tboxPayAmount);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Location = new System.Drawing.Point(292, 158);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 121);
+            this.groupBox2.TabIndex = 23;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Payment";
+            // 
+            // tboxChange
+            // 
+            this.tboxChange.Enabled = false;
+            this.tboxChange.Location = new System.Drawing.Point(94, 72);
+            this.tboxChange.Name = "tboxChange";
+            this.tboxChange.Size = new System.Drawing.Size(100, 20);
+            this.tboxChange.TabIndex = 25;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(7, 75);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(44, 13);
+            this.label9.TabIndex = 24;
+            this.label9.Text = "Change";
+            // 
+            // tboxTotalAmount
+            // 
+            this.tboxTotalAmount.Enabled = false;
+            this.tboxTotalAmount.Location = new System.Drawing.Point(94, 46);
+            this.tboxTotalAmount.Name = "tboxTotalAmount";
+            this.tboxTotalAmount.Size = new System.Drawing.Size(100, 20);
+            this.tboxTotalAmount.TabIndex = 23;
             // 
             // movies
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 334);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.btnReserve);
             this.Controls.Add(this.checkBox7);
             this.Controls.Add(this.checkBox8);
             this.Controls.Add(this.checkBox9);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.lblReservedSeat);
             this.Controls.Add(this.checkBox10);
             this.Controls.Add(this.checkBox11);
+            this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.checkBox12);
             this.Controls.Add(this.checkBox6);
             this.Controls.Add(this.groupBox1);
@@ -366,7 +441,10 @@
             this.Load += new System.EventHandler(this.movies_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -400,5 +478,12 @@
         private System.Windows.Forms.Button btnReserve;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label lblReservedSeat;
+        private System.Windows.Forms.TextBox tboxPayAmount;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox tboxChange;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox tboxTotalAmount;
     }
 }

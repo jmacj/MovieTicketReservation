@@ -34,10 +34,16 @@ namespace TicketReservation
             checkBox10.Appearance = System.Windows.Forms.Appearance.Button;
             checkBox11.Appearance = System.Windows.Forms.Appearance.Button;
             checkBox12.Appearance = System.Windows.Forms.Appearance.Button;
+
+            //default value for textbox
+            tboxChange.Text = Convert.ToString(0.00);
+            tboxTotalAmount.Text = Convert.ToString(0.00);
+            tboxPayAmount.Text = Convert.ToString(0.00);
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
-        {
+        {   
+            // clear all checked checkbox and reset inputs to default
             foreach (Control crtl in this.Controls)
             {
                 if (crtl is CheckBox)
@@ -52,6 +58,7 @@ namespace TicketReservation
 
         public void seatCount(int count, double totalPrice)
         {
+            // if seatAvailable is equal to 0 disable uncheck checkbox
             if (count == totalSeatCount)
             {
                 foreach (Control crtl in this.Controls)
@@ -69,7 +76,6 @@ namespace TicketReservation
             {
                 foreach (Control crtl in this.Controls)
                 {
-                    // if checkbox is checked or unchecked 
                     if (crtl is CheckBox)
                     {
                         if (((CheckBox)crtl).Checked == false)
@@ -79,7 +85,10 @@ namespace TicketReservation
                     }
                 }
             }
-            lblMoviePrice.Text = totalPrice.ToString("#.00");
+
+            //Computation for Cinema Details and Payment Details
+            lblMoviePrice.Text = price.ToString("#.00");
+            tboxTotalAmount.Text = totalPrice.ToString("0.00");
             lblSeatCount.Text = Convert.ToString(totalSeatCount - count);
         }
 
@@ -285,6 +294,21 @@ namespace TicketReservation
                 totalPrice -= price;
             }
             seatCount(count, totalPrice);
+        }
+
+        private void tboxPayAmountLeave(object sender, EventArgs e)
+        {
+            double payAmount = double.Parse(tboxPayAmount.Text);
+            double totalAmount = double.Parse(tboxTotalAmount.Text);
+            double total = (payAmount - totalAmount);
+
+            if (total < 0)
+            {
+                MessageBox.Show("Please Enter Exact to Greater than the Total Amount");
+            }
+            tboxChange.Text = total.ToString("0.00");
+
+            MessageBox.Show("adasd" + total);
         }
     }
 }
