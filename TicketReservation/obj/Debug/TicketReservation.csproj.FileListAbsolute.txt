@@ -18,3 +18,4 @@ C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\Tic
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.movies.resources
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.Properties.Resources.resources
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.csproj.GenerateResource.Cache
+C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.screen.resources

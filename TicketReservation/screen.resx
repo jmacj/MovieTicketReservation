@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="rsz_1rsz_1rsz_1rsz_1rsz_1source_code_ver4_xlg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1rsz_1rsz_1rsz_1rsz_1source_code_ver4_xlg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1rsz_1rsz_1rsz_1rsz_1mr_robot_ver7_xlg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1rsz_1rsz_1rsz_1rsz_1mr_robot_ver7_xlg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1rsz_1rsz_1rsz_1source_code_ver4_xlg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1rsz_1rsz_1rsz_1source_code_ver4_xlg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mr_robot_ver7_xlg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mr_robot_ver7_xlg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1mr_robot_ver7_xlg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1mr_robot_ver7_xlg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1rsz_1rsz_zerot_a4poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1rsz_1rsz_zerot_a4poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1rsz_1rsz_1source_code_ver4_xlg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1rsz_1rsz_1source_code_ver4_xlg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="rsz_1rsz_1rsz_1rsz_1rsz_zerot_a4poster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rsz_1rsz_1rsz_1rsz_1rsz_zerot_a4poster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>
