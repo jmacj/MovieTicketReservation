@@ -19,3 +19,14 @@ C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\Tic
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.Properties.Resources.resources
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.csproj.GenerateResource.Cache
 C:\Users\Francis\Downloads\OLD\git\PortableGit\MovieTicketReservation-master\TicketReservation\obj\Debug\TicketReservation.screen.resources
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\bin\Debug\TicketReservation.exe.config
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.exe
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.pdb
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\bin\Debug\TicketReservation.exe
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\bin\Debug\TicketReservation.pdb
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.csprojResolveAssemblyReference.cache
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.login.resources
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.movies.resources
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.Properties.Resources.resources
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.screen.resources
+C:\Users\Jan\Documents\Git\MovieTicketReservation\TicketReservation\obj\Debug\TicketReservation.csproj.GenerateResource.Cache
